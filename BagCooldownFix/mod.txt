@@ -1,0 +1,14 @@
+{
+	"name": "Bag Cooldown Fix",
+	"description": "Removes bag pick-up cooldown after throwing a bag.",
+	"author": "iffa",
+	"contact": "http://github.com/iffa",
+	"version": "1.0.0",
+	"priority": 10,
+	"hooks": [
+		{
+			"hook_id": "lib/managers/playermanager",
+			"script_path": "cooldown.lua"
+		}
+	]
+}
